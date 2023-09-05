@@ -1,3 +1,14 @@
+.me-left {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: #ff8508 !important;
+}
+.nav-link {
+    color: white !important;
+}
+.footer-text {
+    margin-left: auto;
+    margin-right: auto;
 }
