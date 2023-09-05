@@ -9,8 +9,8 @@
     background-color: #ff8508 !important;
 }
 .nav-link {
-    color: white !important;
-    overflow-wrap: break-word !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    --tw-text-opacity: 1 !important;
 }
 .footer-text {
     margin-left: auto;
