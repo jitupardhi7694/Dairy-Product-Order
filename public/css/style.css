@@ -24,3 +24,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.homeContainer{
+    margin: 96px 0 0 0;
+
+}
+
+.carousel-item{
+    height: 76vh !important;
+}
+
+
+@media (max-width:768px) {
+    .carousel-item {
+        height: 40vh !important;
+    }
+}
