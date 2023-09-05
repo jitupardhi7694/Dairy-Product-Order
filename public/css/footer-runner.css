@@ -1,0 +1,55 @@
+.cmsb11-cms-container {
+    max-width: clamp(21.25rem, 0.7692rem + 91.0256vw, 110rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .cmsb11-md\:cms-container {
+        max-width: clamp(21.25rem, 0.7692rem + 91.0256vw, 110rem);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* instead of `container` use `cms-container` */
+/* instead of `md:container` use `md:cms-container` */
+.cmsb11-block {
+    display: block;
+}
+.cmsb11-flex {
+    display: flex;
+}
+.cmsb11-hidden {
+    display: none;
+}
+.cmsb11-transform {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+        rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+        scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.cmsb11-items-center {
+    align-items: center;
+}
+.cmsb11-bg-secondary {
+    --tw-bg-opacity: 1;
+    /* background-color: rgb(250 196 75 / var(--tw-bg-opacity)); */
+}
+.cmsb11-px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.cmsb11-text-center {
+    text-align: center;
+}
+.cmsb11-text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.cmsb11-text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+    .cmsb11-md\:block {
+        display: block;
+    }
+}

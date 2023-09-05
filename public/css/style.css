@@ -5,8 +5,12 @@
 .navbar {
     background-color: #ff8508 !important;
 }
+.dropdown-menu {
+    background-color: #ff8508 !important;
+}
 .nav-link {
     color: white !important;
+    overflow-wrap: break-word !important;
 }
 .footer-text {
     margin-left: auto;
