@@ -16,7 +16,7 @@
   margin: 82px 0 0 0;
   background: url(/image/add-product-4.jpg) no-repeat 100%;
   background-size: 100%;
-  height: 80vh;
+  height: 83vh;
 }
 .video-register {
   height: 80vh;
@@ -136,6 +136,9 @@
     height: 50vh;
     width: auto;
   }
+  #food-nav {
+    display: block !important;
+  }
 }
 
 @media (max-width: 670px) {
@@ -147,14 +150,9 @@
     background-size: 100%;
     height: 80vh;
   }
-  #food-nav {
-    display: block !important;
-  }
+
   .food-nav {
     display: none !important;
-  }
-  .login-left {
-    padding: 80px 0 0 0;
   }
 }
 
@@ -167,11 +165,19 @@
     height: auto;
   }
 
-  .productContainerImage{
+  .productContainerImage {
     height: auto;
   }
 
   .login-left {
-    padding: 100px 0 0 0;
+    padding: 75px 0 11px 0;
+  }
+}
+
+@media (min-width: 745px) and (max-width: 1075px) {
+  .login-left {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 0;
   }
 }
