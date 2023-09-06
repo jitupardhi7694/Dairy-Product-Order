@@ -52,4 +52,7 @@
     .cmsb11-md\:block {
         display: block;
     }
+    .cmsb11-hidden {
+        display: block !important;
+    }
 }
