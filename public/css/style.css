@@ -177,10 +177,18 @@
   .login-left {
     padding: 75px 0 11px 0;
   }
+  .add-left {
+    padding: 75px 0 11px 0;
+  }
 }
 
 @media (min-width: 745px) and (max-width: 1075px) {
   .login-left {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 0;
+  }
+  .add-left {
     margin-left: auto;
     margin-right: auto;
     padding: 0 0 0 0;
