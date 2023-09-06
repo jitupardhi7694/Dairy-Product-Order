@@ -15,6 +15,7 @@ app.use(express.urlencoded({ limit: 60, extended: false }));
 // app routes start
 app.use('/', require('./routes/homeRoute'));
 app.use('/user', require('./routes/userRoute'));
+app.use('/dashboard', require('./routes/dashboardRoute'));
 // app routes end
 
 app.listen(PORT, (err) => {
