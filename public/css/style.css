@@ -1,196 +1,237 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Signika+Negative:wght@300;700&family=Yeseva+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Signika+Negative:wght@300;700&family=Yeseva+One&display=swap');
 .me-left {
-  margin-left: auto !important;
-  margin-right: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .registerContainer {
-  margin: 82px 0 0 0;
-  background: url(/image/swiper-image/register-1.jpg) no-repeat 100%;
-  background-size: 100%;
-  height: 83vh;
+    margin: 82px 0 0 0;
+    background: url(/image/swiper-image/register-1.jpg) no-repeat 100%;
+    background-size: 100%;
+    height: 83vh;
 }
+
+.addToCartContainer {
+    margin: 100px 0 0 0;
+    /* height: 70vh; */
+}
+
+.add-card {
+    height: 70vh;
+}
+
 .productContainerImage {
-  height: 80vh;
+    height: 80vh;
 }
 .productContainer {
-  margin: 82px 0 0 0;
-  background: url(/image/add-product-4.jpg) no-repeat 100%;
-  background-size: 100%;
-  height: 83vh;
+    margin: 82px 0 0 0;
+    background: url(/image/add-product-4.jpg) no-repeat 100%;
+    background-size: 100%;
+    height: 83vh;
 }
 .video-register {
-  height: 80vh;
+    height: 80vh;
 }
 .loginContainer {
-  margin: 82px 0 0 0;
-  background: url(/image/swiper-image/register-1.jpg) no-repeat 100%;
-  background-size: 100%;
-  height: 80vh;
+    margin: 82px 0 0 0;
+    background: url(/image/swiper-image/register-1.jpg) no-repeat 100%;
+    background-size: 100%;
+    height: 80vh;
 }
 .login-left {
-  margin-left: auto;
-  margin-right: initial;
-  padding: 100px 0 0 0;
+    margin-left: auto;
+    margin-right: initial;
+    padding: 100px 0 0 0;
 }
 .add-left {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 100px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0 0 0;
 }
-.navbar {
-  /* background-color: #ff8508 !important; */
-  background: url(../image/navbar-bg.jpg) no-repeat !important;
-  background-size: cover !important;
-  width: auto;
-  font-family: "Yeseva One", cursive;
+.nav-bg {
+    /* background-color: #ff8508 !important; */
+    background: url(../image/navbar-bg.jpg) no-repeat 100% !important;
+    background-size: cover !important;
+    width: auto;
+    font-family: 'Yeseva One', cursive;
 }
 .dropdown-menu {
-  background-color: #ff8508 !important;
-  background: url(../image/navbar-bg.jpg) no-repeat !important;
-  background-size: cover !important;
-  width: auto;
+    background-color: #ff8508 !important;
+    background: url(../image/navbar-bg.jpg) no-repeat !important;
+    background-size: cover !important;
+    width: auto;
 }
 .card-image {
-  background: url(../image/jersey-img/product-list-bg.png) no-repeat center;
-  background-size: contain;
+    background: url(../image/jersey-img/product-list-bg.png) no-repeat center;
+    background-size: contain;
 }
 .dropdown-item {
-  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
-  --tw-text-opacity: 1 !important;
-  font-weight: 600 !important;
-  font-size: 0.875rem !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    --tw-text-opacity: 1 !important;
+    font-weight: 600 !important;
+    font-size: 0.875rem !important;
 }
 .nav-link {
-  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
-  --tw-text-opacity: 1 !important;
-  font-weight: 600;
-  font-size: 0.875rem;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    --tw-text-opacity: 1 !important;
+    font-weight: 600;
+    font-size: 0.875rem;
 }
 .footer-text {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bg-text1 {
-  padding: 60px 0 0 0;
+    padding: 60px 0 0 0;
 }
 .homeContainer {
-  margin: 80px 0 0 0;
+    margin: 80px 0 0 0;
 }
 .text-heading {
-  font-size: 2rem;
-  font-weight: 600;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .carousel-item {
-  height: 76vh !important;
+    height: 76vh !important;
 }
+
+.justify-content-end {
+    place-items: end !important;
+    display: flex;
+}
+
 .bg-text {
-  padding: 52px 366px 0 375px !important;
-  margin: 0 0px 0 503px !important;
-  font-weight: 600;
-  text-align: justify;
+    padding: 52px 366px 0 375px !important;
+    margin: 0 0px 0 503px !important;
+    font-weight: 600;
+    text-align: justify;
 }
 .image-bg {
-  height: 80vh;
+    height: 80vh;
 }
 #home-bg {
-  display: none;
+    display: none;
 }
 .home-bg {
-  display: block;
+    display: block;
 }
-.food-nav {
-  display: block;
+.foot-nav {
+    display: block;
 }
-#food-nav {
-  display: none;
+#foot-nav {
+    display: none;
 }
 
 .login-text {
-  color: #ff8508;
+    color: #ff8508;
 }
 
+.add-card-info {
+    padding: 70px 20px 70px 20px;
+}
 /* media query  css  */
 
 @media (max-width: 1075px) {
-  .carousel-item {
-    height: 40vh !important;
-  }
-  .bg-text {
-    padding: 0 !important;
-    margin: 0 !important;
-    font-weight: 600;
-    font-family: "Signika Negative", sans-serif;
-    text-align: justify;
-  }
-  .image-bg {
-    height: auto;
-  }
-  .text-heading {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .home-bg {
-    display: none !important;
-  }
-  #home-bg {
-    display: block !important;
-    margin: 80px 0 0 0;
-  }
-  .image-home {
-    height: 50vh;
-    width: auto;
-  }
-  #food-nav {
-    display: block !important;
-  }
+    .carousel-item {
+        height: 40vh !important;
+    }
+    .bg-text {
+        padding: 0 !important;
+        margin: 0 !important;
+        font-weight: 600;
+        font-family: 'Signika Negative', sans-serif;
+        text-align: justify;
+    }
+    .image-bg {
+        height: auto;
+    }
+    .text-heading {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .home-bg {
+        display: none !important;
+    }
+    #home-bg {
+        display: block !important;
+        margin: 80px 0 0 0;
+    }
+    .image-home {
+        height: 50vh;
+        width: auto;
+    }
 }
 
 @media (max-width: 670px) {
-  #login-image-2 {
-    display: block;
-    margin: 0;
-    margin: 82px 0 0 0;
-    background: url(/image/swiper-image/login-3.jpg) no-repeat 100%;
-    background-size: 100%;
-    height: 80vh;
-  }
-
-  .food-nav {
-    display: none !important;
-  }
+    #login-image-2 {
+        display: block;
+        margin: 0;
+        margin: 82px 0 0 0;
+        background: url(/image/swiper-image/login-3.jpg) no-repeat 100%;
+        background-size: 100%;
+        height: 80vh;
+    }
 }
 
-@media (max-width: 745px) {
-  .productContainer {
-    margin: 0%;
-    padding: 0%;
-    background: url(/image/add-product-4.jpg) no-repeat;
-    background-size: 223vh;
-    height: auto;
-  }
+@media (max-width: 767px) {
+    .productContainer {
+        margin: 0%;
+        padding: 0%;
+        background: url(/image/add-product-4.jpg) no-repeat;
+        background-size: 223vh;
+        height: auto;
+    }
 
-  .productContainerImage {
-    height: auto;
-  }
+    .productContainerImage {
+        height: auto;
+    }
 
-  .login-left {
-    padding: 75px 0 11px 0;
-  }
-  .add-left {
-    padding: 75px 0 11px 0;
-  }
+    .login-left {
+        padding: 75px 0 11px 0;
+    }
+    .add-left {
+        padding: 75px 0 11px 0;
+    }
+
+    .addToCartContainer {
+        margin: 80px 0 0 0;
+        /* height: 70vh; */
+    }
+
+    .add-card {
+        height: auto;
+    }
+    .foot-nav {
+        display: none !important;
+    }
+    #foot-nav {
+        display: block !important;
+    }
 }
 
-@media (min-width: 745px) and (max-width: 1075px) {
-  .login-left {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 0 0 0;
-  }
-  .add-left {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 0 0 0;
-  }
+@media (min-width: 767px) and (max-width: 1075px) {
+    .login-left {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 0 0;
+    }
+    .add-left {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 0 0;
+    }
+    .addToCartContainer {
+        margin: 100px 0 0 0;
+        /* height: 70vh; */
+    }
+
+    .add-card {
+        height: 70vh;
+    }
+    .foot-nav {
+        display: block !important;
+    }
+    #foot-nav {
+        display: none !important;
+    }
 }

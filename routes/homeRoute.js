@@ -4,8 +4,10 @@ const router = express.Router();
 router.get('/', async (req, res) => {
     await res.render('home');
 });
-router.get('/dash', async (req, res) => {
-    await res.render('userPages/dashboard');
+router.get('/about', async (req, res) => {
+    await res.render('product/addToCart');
 });
-
+router.get('/add-mithai', async (req, res) => {
+    await res.render('product/addMithai');
+});
 module.exports = router;
