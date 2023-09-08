@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sqlize = require('../helpers/init-mysql');
 
 const addIcecreame = sqlize.define(
-    'add_icecreame',
+    'add_icecreames',
     {
         id: {
             autoIncrement: true,
@@ -38,6 +38,8 @@ const addIcecreame = sqlize.define(
     },
     {
         timestamps: true,
+        createdAt: 'created_at',
+        updatedAt: 'updated_at',
     }
 );
 

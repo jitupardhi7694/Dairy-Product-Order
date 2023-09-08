@@ -1,0 +1,689 @@
+[9/8/2023, 2:59:11 PM] error: uncaughtException: Table 'Nodejs_Crud_Demo.add_bakeries' doesn't exist
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakery.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:00:27 PM] error: uncaughtException: Unknown column 'createdAt' in 'field list'
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakerys.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:00:30 PM] error: uncaughtException: Unknown column 'createdAt' in 'field list'
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakerys.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:01:52 PM] error: uncaughtException: Unknown column 'createdAt' in 'field list'
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakerys.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:02:57 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:03:37 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:04:46 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:05:10 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:05:32 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:06:09 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:19:02 PM] error: uncaughtException: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+Error: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:448:19)
+    at Module._findPath (node:internal/modules/cjs/loader:692:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1076:27)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+[9/8/2023, 3:22:16 PM] error: uncaughtException: Cannot destructure property 'originalname' of 'req.file' as it is undefined.
+TypeError: Cannot destructure property 'originalname' of 'req.file' as it is undefined.
+    at Object.saveBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:23:13)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:14:28
+    at Layer.handle [as handle_request] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\layer.js:95:5)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:175:3)
+[9/8/2023, 3:25:36 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:172:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:28:12 PM] error: uncaughtException: Unexpected token ')'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:114
+        console.log('newBakery =>' + )
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:30:21 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:68:18)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:34:43 PM] error: uncaughtException: Unexpected token '{'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:24
+        le { originalname, filename } = req.file;
+           ^
+
+SyntaxError: Unexpected token '{'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:37:58 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:18)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:38:04 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:68:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:09 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:17 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:30 PM] error: uncaughtException: missing ) after argument list
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:16
+app.post('/upload', upload.single('product_image'),ba saveBakery);
+                                                   ^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:38:32 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:34 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:40 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:46 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:39:45 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:39:56 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:41:42 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:29:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:42:08 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:42:21 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:114:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:42:39 PM] error: uncaughtException: BakeryController is not defined
+ReferenceError: BakeryController is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:42:42 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:42:47 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:53)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:28 PM] error: uncaughtException: The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Module.require (node:internal/modules/cjs/loader:1150:3)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[9/8/2023, 3:43:30 PM] error: uncaughtException: Cannot find module '../'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module '../'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[9/8/2023, 3:43:34 PM] error: uncaughtException: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+Error: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:448:19)
+    at Module._findPath (node:internal/modules/cjs/loader:692:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1076:27)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+[9/8/2023, 3:43:36 PM] error: uncaughtException: Cannot find module './controller/'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module './controller/'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[9/8/2023, 3:43:38 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:53)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:50 PM] error: uncaughtException: Route.post() requires a callback function but got a [object Promise]
+Error: Route.post() requires a callback function but got a [object Promise]
+    at Route.<computed> [as post] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\route.js:211:15)
+    at app.<computed> [as post] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\application.js:499:19)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:50 PM] error: uncaughtException: Cannot read properties of undefined (reading 'body')
+TypeError: Cannot read properties of undefined (reading 'body')
+    at Object.saveBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:68:55)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:70)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:59 PM] error: uncaughtException: re is not defined
+ReferenceError: re is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:81)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:44:01 PM] error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:81)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:53:25 PM] error: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:14:27)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:53:53 PM] error: uncaughtException: multer is not defined
+ReferenceError: multer is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:54:01 PM] error: uncaughtException: Unexpected token 'const'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:5
+const upload = multer({dest: './public/uploads/'});
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:54:06 PM] error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 4:05:30 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:172:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 4:36:15 PM] error: uncaughtException: Unexpected token '{'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:139
+    const Bakery = await Bakery.{
+                                ^
+
+SyntaxError: Unexpected token '{'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 4:38:07 PM] error: uncaughtException: Identifier 'rows' has already been declared
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:141
+    const rows = await Bakery.findOne({
+          ^
+
+SyntaxError: Identifier 'rows' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 4:46:42 PM] error: uncaughtException: demo is not defined
+ReferenceError: demo is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:183:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 4:47:19 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:517:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 5:11:33 PM] error: uncaughtException: Unexpected token ']'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:25
+    try {]
+         ^
+
+SyntaxError: Unexpected token ']'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 5:12:36 PM] error: uncaughtException: missing ) after argument list
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:29
+            console.log("req.error = > "editBakery)
+                        ^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 5:13:22 PM] error: uncaughtException: Unexpected token ')'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:29
+            console.log('req.error = > ' + req.);
+                                               ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 5:28:49 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:190:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)

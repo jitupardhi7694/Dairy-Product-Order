@@ -1,0 +1,1465 @@
+[9/8/2023, 2:59:10 PM] info: Connection to DB established successfully.
+[9/8/2023, 2:59:11 PM] error: uncaughtException: Table 'Nodejs_Crud_Demo.add_bakeries' doesn't exist
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakery.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:00:26 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:00:27 PM] error: uncaughtException: Unknown column 'createdAt' in 'field list'
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakerys.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:00:30 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:00:30 PM] error: uncaughtException: Unknown column 'createdAt' in 'field list'
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakerys.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:01:24 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:01:28 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:01:30 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:01:38 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:01:47 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:01:52 PM] error: uncaughtException: Unknown column 'createdAt' in 'field list'
+Error
+    at Query.run (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\sequelize.js:315:28
+    at async MySQLQueryInterface.select (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async add_bakerys.findAll (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\sequelize\lib\model.js:1140:21)
+    at async Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:8:18)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:02:41 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:02:47 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:02:53 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:02:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:02:57 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:03:34 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:03:37 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:04:46 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:04:46 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:05:03 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:05:09 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:05:10 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:05:32 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:05:32 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:06:08 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:06:09 PM] error: uncaughtException: res.render is not a function
+TypeError: res.render is not a function
+    at Object.getBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:9:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:11:5
+[9/8/2023, 3:06:43 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:06:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:06:50 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:06:55 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:07:02 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:11:00 PM] info: MySQL-DB connection closed.
+[9/8/2023, 3:18:06 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:18:06 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:19:02 PM] error: uncaughtException: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+Error: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:448:19)
+    at Module._findPath (node:internal/modules/cjs/loader:692:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1076:27)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+[9/8/2023, 3:19:08 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:19:08 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "POST /dashboard/add-bakery HTTP/1.1" - - "http://localhost:5000/dashboard/add-bakery" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:19:23 PM] http: ::1 - - [08/Sep/2023:09:49:23 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:20:36 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:20:36 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:20:43 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:20:43 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:20:52 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:20:52 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:20:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:20:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:21:08 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:21:08 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:21:19 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:21:19 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:22:16 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:22:16 PM] error: uncaughtException: Cannot destructure property 'originalname' of 'req.file' as it is undefined.
+TypeError: Cannot destructure property 'originalname' of 'req.file' as it is undefined.
+    at Object.saveBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:23:13)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:14:28
+    at Layer.handle [as handle_request] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\layer.js:95:5)
+    at D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\index.js:175:3)
+[9/8/2023, 3:22:28 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:22:28 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:23:23 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:23:23 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:25:36 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:172:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:25:38 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:25:39 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:25:44 PM] http: ::1 - - [08/Sep/2023:09:55:44 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:45 PM] http: ::1 - - [08/Sep/2023:09:55:45 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:45 PM] http: ::1 - - [08/Sep/2023:09:55:45 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:45 PM] http: ::1 - - [08/Sep/2023:09:55:45 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:45 PM] http: ::1 - - [08/Sep/2023:09:55:45 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:45 PM] http: ::1 - - [08/Sep/2023:09:55:45 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:45 PM] http: ::1 - - [08/Sep/2023:09:55:45 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:25:53 PM] http: ::1 - - [08/Sep/2023:09:55:53 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:26:21 PM] http: ::1 - - [08/Sep/2023:09:56:21 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:01 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:27:01 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:27:06 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:27:07 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:27:12 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:27:12 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:18 PM] http: ::1 - - [08/Sep/2023:09:57:18 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:24 PM] http: ::1 - - [08/Sep/2023:09:57:24 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:29 PM] http: ::1 - - [08/Sep/2023:09:57:29 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:29 PM] http: ::1 - - [08/Sep/2023:09:57:29 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:29 PM] http: ::1 - - [08/Sep/2023:09:57:29 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:27:58 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:27:58 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:28:00 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:28:00 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:28:10 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:28:10 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:28:12 PM] error: uncaughtException: Unexpected token ')'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:114
+        console.log('newBakery =>' + )
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:28:16 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:28:16 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:28:18 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:28:18 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:21 PM] http: ::1 - - [08/Sep/2023:09:58:21 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:29 PM] http: ::1 - - [08/Sep/2023:09:58:29 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:28:50 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:28:51 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:31 PM] http: ::1 - - [08/Sep/2023:09:59:31 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:41 PM] http: ::1 - - [08/Sep/2023:09:59:41 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:42 PM] http: ::1 - - [08/Sep/2023:09:59:42 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:43 PM] http: ::1 - - [08/Sep/2023:09:59:43 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:53 PM] http: ::1 - - [08/Sep/2023:09:59:53 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:53 PM] http: ::1 - - [08/Sep/2023:09:59:53 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:53 PM] http: ::1 - - [08/Sep/2023:09:59:53 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:53 PM] http: ::1 - - [08/Sep/2023:09:59:53 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:53 PM] http: ::1 - - [08/Sep/2023:09:59:53 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:54 PM] http: ::1 - - [08/Sep/2023:09:59:54 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:29:54 PM] http: ::1 - - [08/Sep/2023:09:59:54 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:21 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:68:18)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:30:25 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:30:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:30:26 PM] http: ::1 - - [08/Sep/2023:10:00:26 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:34:43 PM] error: uncaughtException: Unexpected token '{'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:24
+        le { originalname, filename } = req.file;
+           ^
+
+SyntaxError: Unexpected token '{'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:34:48 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:34:48 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:37:58 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:18)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:38:04 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:68:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:09 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:17 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:30 PM] error: uncaughtException: missing ) after argument list
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:16
+app.post('/upload', upload.single('product_image'),ba saveBakery);
+                                                   ^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:38:32 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:34 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:40 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:38:46 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:67:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:39:45 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:39:56 PM] error: uncaughtException: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module 'multer'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[9/8/2023, 3:41:42 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:29:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:42:08 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:42:21 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:114:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:42:31 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:42:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:42:39 PM] error: uncaughtException: BakeryController is not defined
+ReferenceError: BakeryController is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:42:42 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:42:47 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:53)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:28 PM] error: uncaughtException: The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Module.require (node:internal/modules/cjs/loader:1150:3)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[9/8/2023, 3:43:30 PM] error: uncaughtException: Cannot find module '../'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module '../'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[9/8/2023, 3:43:34 PM] error: uncaughtException: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+Error: Cannot find module 'D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:448:19)
+    at Module._findPath (node:internal/modules/cjs/loader:692:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1076:27)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+[9/8/2023, 3:43:36 PM] error: uncaughtException: Cannot find module './controller/'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+Error: Cannot find module './controller/'
+Require stack:
+- D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[9/8/2023, 3:43:38 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:53)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:45 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:43:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:43:50 PM] error: uncaughtException: Route.post() requires a callback function but got a [object Promise]
+Error: Route.post() requires a callback function but got a [object Promise]
+    at Route.<computed> [as post] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\router\route.js:211:15)
+    at app.<computed> [as post] (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\node_modules\express\lib\application.js:499:19)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:50 PM] error: uncaughtException: Cannot read properties of undefined (reading 'body')
+TypeError: Cannot read properties of undefined (reading 'body')
+    at Object.saveBakery (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:68:55)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:70)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:43:59 PM] error: uncaughtException: re is not defined
+ReferenceError: re is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:81)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:44:01 PM] error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:34:81)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[9/8/2023, 3:44:24 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:44:24 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:44:28 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:44:28 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:31 PM] http: ::1 - - [08/Sep/2023:10:14:31 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:44:39 PM] http: ::1 - - [08/Sep/2023:10:14:39 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:03 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:45:06 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:45:06 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:45:32 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:45:32 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:45:35 PM] http: ::1 - - [08/Sep/2023:10:15:35 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:51:49 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:51:49 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:51:51 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:51:51 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:52:06 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:52:08 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:52:08 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:52:10 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:52:10 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:52:25 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:52:26 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:52:35 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:52:35 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:53:25 PM] error: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:14:27)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:53:53 PM] error: uncaughtException: multer is not defined
+ReferenceError: multer is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:54:01 PM] error: uncaughtException: Unexpected token 'const'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:5
+const upload = multer({dest: './public/uploads/'});
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 3:54:06 PM] error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\app.js:99:23)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 3:54:09 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:54:09 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:13 PM] http: ::1 - - [08/Sep/2023:10:24:13 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:45 PM] http: ::1 - - [08/Sep/2023:10:24:45 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:45 PM] http: ::1 - - [08/Sep/2023:10:24:45 +0000] "GET /css/style.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:45 PM] http: ::1 - - [08/Sep/2023:10:24:45 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:45 PM] http: ::1 - - [08/Sep/2023:10:24:45 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:45 PM] http: ::1 - - [08/Sep/2023:10:24:45 +0000] "GET /image/product/combine-mithai.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:45 PM] http: ::1 - - [08/Sep/2023:10:24:45 +0000] "GET /image/product/badam-peda.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/bg-1.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/product/barfi.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/product/cake-2.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/product/cake-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/product/cake-3.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:46 PM] http: ::1 - - [08/Sep/2023:10:24:46 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:48 PM] http: ::1 - - [08/Sep/2023:10:24:48 +0000] "GET /favicon.ico HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:54:52 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:54:52 PM] info: Connection to DB established successfully.
+[9/8/2023, 3:55:01 PM] http: ::1 - - [08/Sep/2023:10:25:01 +0000] "POST /dashboard/add-bakery HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::ffff:127.0.0.1 - - [08/Sep/2023:10:25:01 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::ffff:127.0.0.1 - - [08/Sep/2023:10:25:01 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::1 - - [08/Sep/2023:10:25:01 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::1 - - [08/Sep/2023:10:25:01 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::1 - - [08/Sep/2023:10:25:01 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::1 - - [08/Sep/2023:10:25:01 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:55:01 PM] http: ::1 - - [08/Sep/2023:10:25:01 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 3:59:50 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:59:53 PM] info: Server started at http://localhost:5000
+[9/8/2023, 3:59:53 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:00:08 PM] http: ::1 - - [08/Sep/2023:10:30:08 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:24 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:04:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:04:27 PM] http: ::1 - - [08/Sep/2023:10:34:27 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:27 PM] http: ::1 - - [08/Sep/2023:10:34:27 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:27 PM] http: ::ffff:127.0.0.1 - - [08/Sep/2023:10:34:27 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:27 PM] http: ::1 - - [08/Sep/2023:10:34:27 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:27 PM] http: ::1 - - [08/Sep/2023:10:34:27 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:27 PM] http: ::1 - - [08/Sep/2023:10:34:27 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:04:32 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:04:32 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:04:40 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:04:40 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:04:43 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:04:43 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:04:49 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:04:49 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:04:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:04:58 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:05:03 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:05:04 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:05:30 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:172:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 4:05:33 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:05:33 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:05:40 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:05:40 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:05:46 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:05:46 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:05:59 PM] http: ::1 - - [08/Sep/2023:10:35:59 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:02 PM] http: ::1 - - [08/Sep/2023:10:36:02 +0000] "GET /dashboard/add-baker HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:02 PM] http: ::1 - - [08/Sep/2023:10:36:02 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:02 PM] http: ::1 - - [08/Sep/2023:10:36:02 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:02 PM] http: ::1 - - [08/Sep/2023:10:36:02 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:02 PM] http: ::1 - - [08/Sep/2023:10:36:02 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:02 PM] http: ::1 - - [08/Sep/2023:10:36:02 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:07 PM] http: ::1 - - [08/Sep/2023:10:36:07 +0000] "GET /user/login HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:07 PM] http: ::1 - - [08/Sep/2023:10:36:07 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:07 PM] http: ::1 - - [08/Sep/2023:10:36:07 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:07 PM] http: ::1 - - [08/Sep/2023:10:36:07 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:07 PM] http: ::1 - - [08/Sep/2023:10:36:07 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:07 PM] http: ::1 - - [08/Sep/2023:10:36:07 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:09 PM] http: ::1 - - [08/Sep/2023:10:36:09 +0000] "GET /user/register HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:09 PM] http: ::1 - - [08/Sep/2023:10:36:09 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:09 PM] http: ::1 - - [08/Sep/2023:10:36:09 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:09 PM] http: ::1 - - [08/Sep/2023:10:36:09 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:09 PM] http: ::1 - - [08/Sep/2023:10:36:09 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:09 PM] http: ::1 - - [08/Sep/2023:10:36:09 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:11 PM] http: ::1 - - [08/Sep/2023:10:36:11 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:19 PM] http: ::1 - - [08/Sep/2023:10:36:19 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:06:25 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:06:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:07:26 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:07:26 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:34 PM] http: ::1 - - [08/Sep/2023:10:37:34 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:07:44 PM] http: ::1 - - [08/Sep/2023:10:37:44 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:34:25 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:26 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:34:30 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:34:43 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:43 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:34:46 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:46 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:34:52 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:52 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:34:55 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:55 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:34:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:34:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:07 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:07 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:20 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:20 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:30 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:30 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:31 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:32 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:37 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:37 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:41 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:41 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:35:45 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:35:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:36:15 PM] error: uncaughtException: Unexpected token '{'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:139
+    const Bakery = await Bakery.{
+                                ^
+
+SyntaxError: Unexpected token '{'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 4:36:25 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:36:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:36:31 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:36:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:36:37 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:36:37 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:36:41 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:36:41 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:01 PM] http: ::1 - - [08/Sep/2023:11:07:01 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:07 PM] http: ::1 - - [08/Sep/2023:11:07:07 +0000] "POST /dashboard/add-bakery HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:37:25 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:37:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:37:42 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:37:42 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:37:49 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:37:49 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:37:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:37:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:38:07 PM] error: uncaughtException: Identifier 'rows' has already been declared
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:141
+    const rows = await Bakery.findOne({
+          ^
+
+SyntaxError: Identifier 'rows' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 4:38:46 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:38:47 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:38:51 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:38:51 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:38:59 PM] http: ::1 - - [08/Sep/2023:11:08:59 +0000] "POST /dashboard/add-bakery HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:01 PM] http: ::1 - - [08/Sep/2023:11:09:01 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:39:07 PM] http: ::1 - - [08/Sep/2023:11:09:07 +0000] "POST /dashboard/add-bakery HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:44:24 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:44:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:46:37 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:46:38 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:46:42 PM] error: uncaughtException: demo is not defined
+ReferenceError: demo is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:183:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 4:46:45 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:46:46 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:47:19 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:517:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 4:47:23 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:47:23 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:47:54 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:47:54 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:47:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:47:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:48:27 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:48:27 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:48:31 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:48:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:48:37 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:48:37 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:48:40 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:48:40 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:48:44 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:48:44 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:49:04 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:49:04 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:49:08 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:49:08 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:49:35 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:49:35 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:49:46 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:49:46 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:49:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:49:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:52:11 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:52:11 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:52:57 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:52:57 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:53:45 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:53:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:53:49 PM] info: Server started at http://localhost:5000
+[9/8/2023, 4:53:49 PM] info: Connection to DB established successfully.
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 4:53:58 PM] http: ::1 - - [08/Sep/2023:11:23:58 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:08:52 PM] http: ::1 - - [08/Sep/2023:11:38:52 +0000] "POST /dashboard/add-bakery HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:08:53 PM] http: ::1 - - [08/Sep/2023:11:38:53 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:05 PM] http: ::1 - - [08/Sep/2023:11:39:05 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:06 PM] http: ::1 - - [08/Sep/2023:11:39:06 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:11 PM] http: ::1 - - [08/Sep/2023:11:39:11 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:11 PM] http: ::1 - - [08/Sep/2023:11:39:11 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:18 PM] http: ::1 - - [08/Sep/2023:11:39:18 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:44 PM] http: ::1 - - [08/Sep/2023:11:39:44 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:09:45 PM] http: ::1 - - [08/Sep/2023:11:39:45 +0000] "GET /dashboard/add-bakery HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:05 PM] http: ::1 - - [08/Sep/2023:11:40:05 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:10:39 PM] info: MySQL-DB connection closed.
+[9/8/2023, 5:10:47 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:10:47 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:11:33 PM] error: uncaughtException: Unexpected token ']'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:25
+    try {]
+         ^
+
+SyntaxError: Unexpected token ']'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 5:11:40 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:11:40 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:46 PM] http: ::1 - - [08/Sep/2023:11:41:46 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:11:59 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:00 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:07 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:07 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:13 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:13 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:15 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:16 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:22 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:23 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:29 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:29 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:31 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:36 PM] error: uncaughtException: missing ) after argument list
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:29
+            console.log("req.error = > "editBakery)
+                        ^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 5:12:42 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:45 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:12:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:50 PM] http: ::1 - - [08/Sep/2023:11:42:50 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:12:56 PM] http: ::1 - - [08/Sep/2023:11:42:56 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:22 PM] error: uncaughtException: Unexpected token ')'
+D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:29
+            console.log('req.error = > ' + req.);
+                                               ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[9/8/2023, 5:13:24 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:13:25 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:13:28 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:13:28 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:30 PM] http: ::1 - - [08/Sep/2023:11:43:30 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:37 PM] http: ::1 - - [08/Sep/2023:11:43:37 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:45 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:13:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:13:50 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:13:50 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:52 PM] http: ::1 - - [08/Sep/2023:11:43:52 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:13:58 PM] http: ::1 - - [08/Sep/2023:11:43:58 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:07 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:14:07 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:14:14 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:14:14 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:15 PM] http: ::1 - - [08/Sep/2023:11:44:15 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:14:20 PM] http: ::1 - - [08/Sep/2023:11:44:20 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:03 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:15:03 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:15:07 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:15:07 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:54 PM] http: ::1 - - [08/Sep/2023:11:45:54 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:55 PM] http: ::1 - - [08/Sep/2023:11:45:55 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:15:56 PM] http: ::1 - - [08/Sep/2023:11:45:56 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:27 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:16:28 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /dashboard/add-bakery HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:32 PM] http: ::1 - - [08/Sep/2023:11:46:32 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:16:39 PM] http: ::1 - - [08/Sep/2023:11:46:39 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:17:16 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:17:16 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:21:39 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:21:39 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:21:52 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:21:53 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:11 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:11 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:15 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:17 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:17 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:21 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:22 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:23 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:30 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:30 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:43 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:43 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:48 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:22:48 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:57 PM] http: ::1 - - [08/Sep/2023:11:52:57 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:22:59 PM] http: ::1 - - [08/Sep/2023:11:52:59 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:05 PM] http: ::1 - - [08/Sep/2023:11:53:05 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:27 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:23:27 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:23:30 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:23:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:23:35 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:23:35 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:36 PM] http: ::1 - - [08/Sep/2023:11:53:36 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:23:43 PM] http: ::1 - - [08/Sep/2023:11:53:43 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:33 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:25:33 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:50 PM] http: ::1 - - [08/Sep/2023:11:55:50 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:25:57 PM] http: ::1 - - [08/Sep/2023:11:55:57 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:28:49 PM] error: uncaughtException: saveBakery is not defined
+ReferenceError: saveBakery is not defined
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\controller\addBakeryController.js:190:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\JITENDRA PERSONAL NODE JS PR\pardhi-milk-udyog-website\routes\dashboardRoute.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[9/8/2023, 5:28:53 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:28:53 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:29:03 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:29:03 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:29:05 PM] http: ::1 - - [08/Sep/2023:11:59:05 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:06 PM] http: ::1 - - [08/Sep/2023:11:59:06 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:06 PM] http: ::1 - - [08/Sep/2023:11:59:06 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:06 PM] http: ::1 - - [08/Sep/2023:11:59:06 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:06 PM] http: ::1 - - [08/Sep/2023:11:59:06 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:06 PM] http: ::1 - - [08/Sep/2023:11:59:06 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:06 PM] http: ::1 - - [08/Sep/2023:11:59:06 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:29:14 PM] http: ::1 - - [08/Sep/2023:11:59:14 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:30:31 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:31 PM] http: ::1 - - [08/Sep/2023:12:00:31 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "POST /dashboard/add-bakery HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "GET /css/footer-runner.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "GET /css/flip-card.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "GET /image/logo-bg.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "GET /image/navbar-bg.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:30:38 PM] http: ::1 - - [08/Sep/2023:12:00:38 +0000] "GET /image/add-product-4.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+[9/8/2023, 5:33:44 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:33:45 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:33:53 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:33:53 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:02 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:02 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:06 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:06 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:13 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:13 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:19 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:20 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:23 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:23 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:29 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:29 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:34 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:34 PM] info: Connection to DB established successfully.
+[9/8/2023, 5:34:38 PM] info: Server started at http://localhost:5000
+[9/8/2023, 5:34:39 PM] info: Connection to DB established successfully.

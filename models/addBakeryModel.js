@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sqlize = require('../helpers/init-mysql');
 
 const addBakery = sqlize.define(
-    'add_bakery',
+    'add_bakerys',
     {
         id: {
             autoIncrement: true,
@@ -38,6 +38,8 @@ const addBakery = sqlize.define(
     },
     {
         timestamps: true,
+        createdAt: 'created_at',
+        updatedAt: 'updated_at',
     }
 );
 
