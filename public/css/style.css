@@ -28,7 +28,9 @@
 .card {
     box-shadow: 2px 5px 8px 2px gray;
 }
-
+.alert {
+    width: max-content !important;
+}
 .productContainerImage {
     height: 80vh;
 }

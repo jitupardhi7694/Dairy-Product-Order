@@ -3,12 +3,12 @@ const { body, validationResult } = require('express-validator');
 const productValidationRules = () => [
     body('name')
         .notEmpty()
-        .isLength({ min: 2, max: 75 })
-        .withMessage('Name is required'),
+        .withMessage('Name is required')
+        .isLength({ min: 2, max: 75 }),
     body('introduction')
         .notEmpty()
-        .isLength({ min: 2, max: 500 })
-        .withMessage('Introduction is required'),
+        .withMessage('Introduction is required')
+        .isLength({ min: 2, max: 500 }),
     body('rating').notEmpty().isNumeric().withMessage('Rating is required'),
     body('price').notEmpty().isNumeric().withMessage('Price is required'),
 ];
