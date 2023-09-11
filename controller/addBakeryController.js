@@ -1,6 +1,5 @@
 const { Op } = require('sequelize');
 const BakeryModel = require('../models/addBakeryModel');
-const { QueryTypes } = require('sequelize');
 const moment = require('moment');
 const logger = require('../helpers/winston');
 
@@ -19,67 +18,6 @@ const deleteBakeryTable = async (req, res) => {
 };
 
 // save
-// const saveBakery = async (req, res) => {
-//     const { name, introdction, price, rating } = req.body;
-
-//     try {
-//         const rows = await Bakery.findAll();
-
-//         if (!req.file) {
-//             // Handle the case where no file was uploaded
-//             const errors = [{ msg: 'Please upload a product image' }];
-//             console.log(' error', errors);
-
-//             return res.render('product/addBakery', {
-//                 errors,
-//             });
-//         }
-
-//         const { originalname, filename } = req.file;
-
-//         const errors = req.ValidateErrors;
-//         if (errors.length > 0) {
-//             // return to form with errors
-//             return res.render('product/addBakery', {
-//                 errors,
-//                 rows,
-//             });
-//         }
-
-//         // check for duplicate religion name before inserting/updating
-//         const bakery = await Bakery.findOne({
-//             where: { name, id: { [Op.ne]: id } },
-//         });
-//         console.log('bakery error', bakery);
-
-//         if (bakery) {
-//             // Already Exists, return back to form
-//             errors.push({ msg: 'This Bakery is already saved' });
-//             return res.render('product/addBakery', {
-//                 errors,
-//                 id,
-//                 img: null,
-//                 rows,
-//             });
-//         }
-
-//         // create new Bakery
-//         const newBakery = await Bakery.create({
-//             name,
-//             introdction,
-//             price,
-//             rating,
-//             product_image: originalname,
-//             img_data: filename,
-//         });
-//         //  console.log('newBakery', newBakery);
-//         req.flash('success_msg', `Bakery ${newBakery.name} is saved. `);
-//         return res.redirect('/dashboard');
-//     } catch (error) {
-//         console.log(error);
-//     }
-//     return null;
-// };
 
 const saveBakery = async (req, res) => {
     const { name, introduction, price, rating } = req.body;
@@ -119,9 +57,9 @@ const saveBakery = async (req, res) => {
             product_image: originalname,
             img_data: filename,
         });
-        console.log('created on db...', newBakery);
+        // console.log('created on db...', newBakery);
         req.flash('success_msg', `Bakery product ${newBakery.name} is saved.`);
-        return res.redirect('/dashboard/add-bakery');
+        return res.redirect('/dashboard');
     } catch (error) {
         console.error(error);
         // Handle the error appropriately, e.g., render an error page or return a 500 response.
