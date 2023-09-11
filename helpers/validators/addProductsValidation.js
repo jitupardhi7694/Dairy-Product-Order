@@ -3,15 +3,11 @@ const { body, validationResult } = require('express-validator');
 const productValidationRules = () => [
     body('name')
         .notEmpty()
-        .isLength({ max: 75 })
-        .withMessage('Name is required')
-        .trim()
-        .escape(),
+        .isLength({ min: 2, max: 75 })
+        .withMessage('Name is required'),
     body('introduction')
         .notEmpty()
-        .trim()
-        .escape()
-        .isLength({ max: 500 })
+        .isLength({ min: 2, max: 500 })
         .withMessage('Introduction is required'),
     body('rating').notEmpty().isNumeric().withMessage('Rating is required'),
     body('price').notEmpty().isNumeric().withMessage('Price is required'),

@@ -119,7 +119,7 @@ const saveBakery = async (req, res) => {
             product_image: originalname,
             img_data: filename,
         });
-
+        console.log('created on db...', newBakery);
         req.flash('success_msg', `Bakery product ${newBakery.name} is saved.`);
         return res.redirect('/dashboard/add-bakery');
     } catch (error) {
