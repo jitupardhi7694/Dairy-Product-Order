@@ -120,8 +120,8 @@ const saveBakery = async (req, res) => {
             img_data: filename,
         });
 
-        req.flash('success_msg', `Bakery ${newBakery.name} is saved.`);
-        return res.redirect('/dashboard');
+        req.flash('success_msg', `Bakery product ${newBakery.name} is saved.`);
+        return res.redirect('/dashboard/add-bakery');
     } catch (error) {
         console.error(error);
         // Handle the error appropriately, e.g., render an error page or return a 500 response.
@@ -154,7 +154,7 @@ const updateBakery = async (req, res) => {
     console.log('bakery error', bakery);
     if (bakery) {
         // Already Exists, return back to form
-        errors.push({ msg: 'This Bakery is already saved' });
+        errors.push({ msg: 'This Bakery product is already saved' });
         return res.render('product/addBakery', {
             errors,
             id,
@@ -178,7 +178,10 @@ const updateBakery = async (req, res) => {
             );
             //   console.log('updatedBakery', updatedBakery);
             if (updatedBakery) {
-                req.flash('success_msg', 'Data Successfully updated.');
+                req.flash(
+                    'success_msg',
+                    'Bakery product Data Successfully updated.'
+                );
             }
             return res.redirect('/dashboard/add-bakery');
         }
