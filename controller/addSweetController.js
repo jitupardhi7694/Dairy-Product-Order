@@ -1,87 +1,23 @@
 const { Op } = require('sequelize');
-const BakeryModel = require('../models/addBakeryModel');
-const { QueryTypes } = require('sequelize');
+const SweetModel = require('../models/addSweetModel');
 const moment = require('moment');
 const logger = require('../helpers/winston');
 
-// Bakerys Registration Form Page
+// Sweets Registration Form Page
 
-const getBakery = async (req, res) => {
-    const rows = await BakeryModel.findAll();
-    await res.render('product/addBakery', {
+const getSweet = async (req, res) => {
+    const rows = await SweetModel.findAll();
+    await res.render('product/addSweets', {
         rows,
         img: null,
     });
 };
 
-const deleteBakeryTable = async (req, res) => {
-    await deleteBakery(req, res);
+const deleteSweetTable = async (req, res) => {
+    await deleteSweet(req, res);
 };
 
-// save
-// const saveBakery = async (req, res) => {
-//     const { name, introdction, price, rating } = req.body;
-
-//     try {
-//         const rows = await Bakery.findAll();
-
-//         if (!req.file) {
-//             // Handle the case where no file was uploaded
-//             const errors = [{ msg: 'Please upload a product image' }];
-//             console.log(' error', errors);
-
-//             return res.render('product/addBakery', {
-//                 errors,
-//             });
-//         }
-
-//         const { originalname, filename } = req.file;
-
-//         const errors = req.ValidateErrors;
-//         if (errors.length > 0) {
-//             // return to form with errors
-//             return res.render('product/addBakery', {
-//                 errors,
-//                 rows,
-//             });
-//         }
-
-//         // check for duplicate religion name before inserting/updating
-//         const bakery = await Bakery.findOne({
-//             where: { name, id: { [Op.ne]: id } },
-//         });
-//         console.log('bakery error', bakery);
-
-//         if (bakery) {
-//             // Already Exists, return back to form
-//             errors.push({ msg: 'This Bakery is already saved' });
-//             return res.render('product/addBakery', {
-//                 errors,
-//                 id,
-//                 img: null,
-//                 rows,
-//             });
-//         }
-
-//         // create new Bakery
-//         const newBakery = await Bakery.create({
-//             name,
-//             introdction,
-//             price,
-//             rating,
-//             product_image: originalname,
-//             img_data: filename,
-//         });
-//         //  console.log('newBakery', newBakery);
-//         req.flash('success_msg', `Bakery ${newBakery.name} is saved. `);
-//         return res.redirect('/dashboard');
-//     } catch (error) {
-//         console.log(error);
-//     }
-//     return null;
-// };
-
-const saveBakery = async (req, res) => {
+const saveSweet = async (req, res) => {
     const { name, introduction, price, rating } = req.body;
 
     try {
@@ -90,28 +26,28 @@ const saveBakery = async (req, res) => {
             const errors = [{ msg: 'Please upload a product image' }];
             console.log('error', errors);
 
-            return res.render('product/addBakery', {
+            return res.render('product/addSweets', {
                 errors,
             });
         }
 
         const { originalname, filename } = req.file;
 
-        // Check for duplicate bakery name before inserting
-        const existingBakery = await BakeryModel.findOne({
+        // Check for duplicate Sweet name before inserting
+        const existingSweet = await SweetModel.findOne({
             where: { name },
         });
 
-        if (existingBakery) {
+        if (existingSweet) {
             // Already exists, return back to the form
-            const errors = [{ msg: 'This Bakery is already saved' }];
-            return res.render('product/addBakery', {
+            const errors = [{ msg: 'This Sweet is already saved' }];
+            return res.render('product/addSweets', {
                 errors,
             });
         }
 
-        // Create a new Bakery record
-        const newBakery = await BakeryModel.create({
+        // Create a new Sweet record
+        const newSweet = await SweetModel.create({
             name,
             introduction,
             price,
@@ -120,8 +56,8 @@ const saveBakery = async (req, res) => {
             img_data: filename,
         });
 
-        req.flash('success_msg', `Bakery ${newBakery.name} is saved.`);
-        return res.redirect('/dashboard/add-bakery');
+        req.flash('success_msg', `Sweet ${newSweet.name} is saved.`);
+        return res.redirect('/sweet/add-sweet');
     } catch (error) {
         console.error(error);
         // Handle the error appropriately, e.g., render an error page or return a 500 response.
@@ -131,16 +67,16 @@ const saveBakery = async (req, res) => {
 
 // Controller
 
-const updateBakery = async (req, res) => {
+const updateSweet = async (req, res) => {
     const { id } = req.params;
     //  const rows = req.body;
     const { name, introdction, price, rating } = req.body;
-    const imageData = await BakeryModel.findByPk(id);
+    const imageData = await SweetModel.findByPk(id);
     const { originalname, filename } = req.file || {};
     const errors = req.ValidateErrors;
     if (errors.length > 0) {
         // return to form with errors
-        return res.render('product/addBakery', {
+        return res.render('product/addSweets', {
             errors,
             rows: req.body,
             img: imageData.img_data,
@@ -148,14 +84,14 @@ const updateBakery = async (req, res) => {
     }
 
     // check for duplicate religion name before inserting/updating
-    const bakery = await BakeryModel.findOne({
+    const Sweet = await SweetModel.findOne({
         where: { name, id: { [Op.ne]: id } },
     });
-    console.log('bakery error', bakery);
-    if (bakery) {
+    console.log('Sweet error', Sweet);
+    if (Sweet) {
         // Already Exists, return back to form
-        errors.push({ msg: 'This Bakery is already saved' });
-        return res.render('product/addBakery', {
+        errors.push({ msg: 'This Sweet is already saved' });
+        return res.render('product/addSweets', {
             errors,
             id,
             rows: req.body,
@@ -165,7 +101,7 @@ const updateBakery = async (req, res) => {
 
     try {
         if (id !== '') {
-            const updatedBakery = await BakeryModel.update(
+            const updatedSweet = await SweetModel.update(
                 {
                     name,
                     introdction,
@@ -176,11 +112,11 @@ const updateBakery = async (req, res) => {
                 },
                 { where: { id } }
             );
-            //   console.log('updatedBakery', updatedBakery);
-            if (updatedBakery) {
+            //   console.log('updatedSweet', updatedSweet);
+            if (updatedSweet) {
                 req.flash('success_msg', 'Data Successfully updated.');
             }
-            return res.redirect('/dashboard/add-bakery');
+            return res.redirect('/sweet/add-sweet');
         }
     } catch (err) {
         logger.error(err);
@@ -190,17 +126,17 @@ const updateBakery = async (req, res) => {
 
 // edit
 
-const editBakery = async (req, res) => {
+const editSweet = async (req, res) => {
     const { id } = req.params;
     try {
-        const rows = await BakeryModel.findByPk(id);
+        const rows = await SweetModel.findByPk(id);
         if (rows === null) {
             //  console.log('inside blank');
             req.flash('error_msg', `No record found for editing`);
-            return res.redirect('/dashboard/add-bakery-table');
+            return res.redirect('/sweet/add-sweet-table');
         }
         const img = rows.img_data;
-        res.render('product/addBakery', {
+        res.render('product/addSweets', {
             rows,
             img,
         });
@@ -210,36 +146,36 @@ const editBakery = async (req, res) => {
     return null;
 };
 
-async function deleteBakery(req, res) {
+async function deleteSweet(req, res) {
     const { id } = req.params;
     try {
-        await BakeryModel.destroy({
+        await SweetModel.destroy({
             where: {
                 id,
             },
         });
 
         req.flash('success_msg', 'Data Deleted successfully.');
-        return res.redirect('/dashboard/add-bakery-table');
+        return res.redirect('/sweet/add-sweet-table');
     } catch (error) {
         return error.message;
     }
 }
 
-const BakeryTable = async (req, res) => {
-    const BakeryTable = await BakeryModel.findAll(); // search for the Bakery data
-    res.render('product/addBakeryTable', {
-        BakeryTable,
+const SweetTable = async (req, res) => {
+    const SweetTable = await SweetModel.findAll(); // search for the Sweet data
+    res.render('product/addSweetsTable', {
+        SweetTable,
         moment,
     });
     return null;
 };
 
 module.exports = {
-    saveBakery,
-    editBakery,
-    updateBakery,
-    deleteBakeryTable,
-    getBakery,
-    BakeryTable,
+    saveSweet,
+    editSweet,
+    updateSweet,
+    deleteSweetTable,
+    getSweet,
+    SweetTable,
 };

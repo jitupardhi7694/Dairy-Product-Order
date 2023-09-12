@@ -95,6 +95,10 @@ app.get('/sessionData', (req, res) => {
 
 // Define routes and custom middleware
 app.use('/', require('./routes/homeRoute'));
+app.use('/milk', require('./routes/milkRoute'));
+app.use('/bakery', require('./routes/bakeryRoute'));
+app.use('/icecreame', require('./routes/icecreameRoute'));
+app.use('/sweet', require('./routes/sweetRoute'));
 app.use('/users', require('./routes/userRoute'));
 app.use('/dashboard', require('./routes/dashboardRoute'));
 

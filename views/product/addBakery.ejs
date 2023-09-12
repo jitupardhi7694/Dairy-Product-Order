@@ -15,19 +15,20 @@
                   <div class="form-group">
                     <div class="mb-3">
                       <input type="text" class="form-control rounded-pill" id="name" placeholder="Icecreame Name"
-                        name="name" required />
+                        name="name" value="<%= typeof name != 'undefined' ? name : '' %>" required />
                     </div>
                     <div class="mb-3">
                       <input type="text" class="form-control rounded-pill" id="price" placeholder="Price " name="price"
-                        required />
+                        value="<%= typeof price != 'undefined' ? price : '' %>" required />
                     </div>
                     <div class="mb-3">
                       <input type="text" class="form-control rounded-pill" id="introduction" placeholder="Inroduction "
-                        name="introduction" required />
+                        name="introduction" value="<%= typeof introduction != 'undefined' ? introduction : '' %>"
+                        required />
                     </div>
                     <div class="mb-3">
                       <input type="text" class="form-control rounded-pill" id="rating" placeholder="Rating "
-                        name="rating" required />
+                        name="rating" value="<%= typeof rating != 'undefined' ? rating : '' %>" required />
                     </div>
                     <div class="mb-3">
                       <input type="file" class="form-control rounded-pill" id="product_image" placeholder="Image "

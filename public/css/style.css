@@ -15,7 +15,7 @@
     /* height: 70vh; */
 }
 .messageContainer {
-    margin: 100px 0 0 0;
+    margin: 5px 0 0 0;
     /* height: 70vh; */
     position: absolute;
 }
@@ -35,7 +35,8 @@
     height: 80vh;
 }
 .dashboardContainer {
-    margin: 100px 0 0 0;
+    margin: 80px 0 0 0;
+    padding: 58px 0 0 0;
 }
 .productContainer {
     margin: 82px 0 0 0;

@@ -1,35 +1,38 @@
 <div class="registerContainer " id="login-image-2">
     <div class="container ">
         <div class="row ">
-
             <div class="col-md-4 mt-4 login-left ">
                 <div class="container">
                     <h4 class="card-text text-center mx-auto  login-text">USER REGISTER</h4>
                 </div>
-                <form action="">
-
+                <form action="" method="post">
                     <div class="container mt-4">
                         <div class="row">
                             <div class="form-group">
                                 <div class="mb-3">
 
                                     <input type="email" class="form-control rounded-pill" id="formGroupExampleInput"
-                                        placeholder="User Email" required>
+                                        name="email" placeholder="User Email"
+                                        value="<%= typeof email != 'undefined' ? email : '' %>" required>
                                 </div>
                                 <div class="mb-3">
 
                                     <input type="password" class="form-control rounded-pill" id="formGroupExampleInput2"
-                                        placeholder="Password" required>
+                                        name="password" placeholder="Password"
+                                        value="<%= typeof password != 'undefined' ? password : '' %>" required>
                                 </div>
                                 <div class="mb-3">
 
                                     <input type="password" class="form-control rounded-pill" id="formGroupExampleInput2"
-                                        placeholder="Confirm Password" required>
+                                        name="confirm_password" placeholder="Confirm Password"
+                                        value="<%= typeof confirm_password != 'undefined' ? confirm_password : '' %>"
+                                        required>
                                 </div>
                                 <div class="mb-3">
 
                                     <select class="form-select border rounded-pill" name="role_id"
-                                        aria-label="Select User Role" required>
+                                        aria-label="Select User Role"
+                                        value="<%= typeof role_id != 'undefined' ? role_id : '' %>" required>
                                         <option class="text-dark" selected disabled>Select User Role</option>
 
 

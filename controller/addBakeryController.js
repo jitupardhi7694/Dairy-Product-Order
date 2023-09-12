@@ -121,7 +121,7 @@ const updateBakery = async (req, res) => {
                     'Bakery product Data Successfully updated.'
                 );
             }
-            return res.redirect('/dashboard/add-bakery');
+            return res.redirect('/bakery/add-bakery');
         }
     } catch (err) {
         logger.error(err);
@@ -138,7 +138,7 @@ const editBakery = async (req, res) => {
         if (rows === null) {
             //  console.log('inside blank');
             req.flash('error_msg', `No record found for editing`);
-            return res.redirect('/dashboard/add-bakery-table');
+            return res.redirect('/bakery/add-bakery-table');
         }
         const img = rows.img_data;
         res.render('product/addBakery', {
@@ -161,7 +161,7 @@ async function deleteBakery(req, res) {
         });
 
         req.flash('success_msg', 'Data Deleted successfully.');
-        return res.redirect('/dashboard/add-bakery-table');
+        return res.redirect('/bakery/add-bakery-table');
     } catch (error) {
         return error.message;
     }

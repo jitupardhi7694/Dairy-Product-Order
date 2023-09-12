@@ -14,12 +14,14 @@
                                 <div class="mb-3">
 
                                     <input type="email" class="form-control rounded-pill" id="formGroupExampleInput"
-                                        placeholder="User Email" required>
+                                        placeholder="User Email" value="<%= typeof email != 'undefined' ? email : '' %>"
+                                        required>
                                 </div>
                                 <div class="mb-3">
 
                                     <input type="password" class="form-control rounded-pill" id="formGroupExampleInput2"
-                                        placeholder="User Password" required>
+                                        placeholder="User Password"
+                                        value="<%= typeof password != 'undefined' ? password : '' %>" required>
                                 </div>
                             </div>
 
