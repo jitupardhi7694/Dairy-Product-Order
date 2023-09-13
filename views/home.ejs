@@ -12,119 +12,38 @@
 </div>
 
 <div class="container mt-5 mb-5">
-  <h5 class="text-center text-heading">Dairy Products</h5>
+  <h5 class="text-center text-heading">Our Products</h5>
 </div>
-<br>
+
 <!-- our products  -->
 
-<div class="container mt-5 mb-5">
+
+<div class="container mt-3 mb-5">
+
   <div class="col-md-12">
-    <div class="row mt-4">
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/crud.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Crud</h5>
+    <div class="row">
+
+      <% Milk.forEach(image=> { %>
+        <div class="col-md-3 mt-2">
+          <div class="card box-radius">
+            <div class="card-box">
+              <img src="uploads/<%= image.img_data %>" alt="<%= image.name %>" class="card-img">
+              <div class="mx-3">
+                <h5 class="product-text text-center mt-2">
+                  <%= image.name %>
+                </h5>
+
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/ghee.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Ghee</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/lassi.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Lassi</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/shreekhand.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Shreekhand</h5>
-          </div>
-        </div>
-      </div>
+        <% }); %>
+
     </div>
-    <!-- second product row -->
-    <div class="row mt-4">
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/milk-glass.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Milk </h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/paneer.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Paneer</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/kaju-peda.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Kaju Katali Sweet</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/rasgulla.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Rasgulla </h5>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- third product row  -->
-    <div class="row mt-4">
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/mithai-4-pack.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">4 Mix Pack Sweet </h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/malai-peda.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Badam Peda</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/malai-peda-2.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Malai Pista Barfi</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mt-2">
-        <div class="card box-radius">
-          <div class="card-body">
-            <img src="/image/product/pestry-1.jpg" alt="" class="card-img">
-            <h5 class="card-text mt-2 text-center">Chocolate Pestry</h5>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
+
 
 <div class="container mt-5 ">
   <h5 class="text-center text-heading"> Dairy Products</h5>
