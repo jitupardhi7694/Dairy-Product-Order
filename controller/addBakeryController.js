@@ -59,7 +59,7 @@ const saveBakery = async (req, res) => {
         });
         // console.log('created on db...', newBakery);
         req.flash('success_msg', `Bakery product ${newBakery.name} is saved.`);
-        return res.redirect('/dashboard');
+        return res.redirect('/dashboard/add-bakery');
     } catch (error) {
         console.error(error);
         // Handle the error appropriately, e.g., render an error page or return a 500 response.

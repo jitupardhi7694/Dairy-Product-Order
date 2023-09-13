@@ -15,6 +15,7 @@
   <h5 class="text-center text-heading">Dairy Products</h5>
 </div>
 <br>
+<!-- our products  -->
 
 <div class="container mt-5 mb-5">
   <div class="col-md-12">
@@ -125,37 +126,40 @@
   </div>
 </div>
 
-
 <div class="container mt-5 ">
   <h5 class="text-center text-heading">Buy Online Dairy Products</h5>
 </div>
 <br>
-<!-- bakery product  -->
+<!-- Milk  product  -->
 <div class="container mt-3 mb-5">
+  <div class="container mt-3 mb-3 ">
+    <h6 class="text-center text-primary text-heading">Buy Online Milk Products</h6>
+  </div>
+  <br>
   <div class="col-md-12">
     <div class="row">
-      <% if (Bakery.length> 0) { %>
-        <% Bakery.forEach(image=> { %>
+      <% if (Milk.length> 0) { %>
+        <% Milk.forEach(image=> { %>
           <div class="col-md-3 mt-2">
-            <div class="card">
+            <div class="card product-radius">
               <div class="card-box">
                 <img src="uploads/<%= image.img_data %>" alt="<%= image.name %>" class="card-img">
                 <div class="mx-3">
-                  <h5 class="card-text mt-2">
+                  <h5 class="product-text mt-2">
                     <%= image.name %>
                   </h5>
-                  <p class="card-text mt-1">
+                  <p class="product-text mt-1">
                     <%= image.introduction %>
                   </p>
-                  <h6 class="card-text mt-1">
-                    <%= image.price %>
+                  <h6 class="product-text mt-1">
+                    <i class="fa-solid fa-indian-rupee-sign"></i> - <%= image.price %>
                   </h6>
                 </div>
                 <div class="mx-auto text-center">
-                  <span class="badge rounded-pill bg-primary">
-                    <%= image.rating %><i class="fa-regular fa-star"></i>
+                  <span class="badge rounded-pill bg-primary product-text">
+                    <%= image.rating %> <i class="fa-regular fa-star"></i>
                   </span>
-                  <div class="btn-group" role="group" aria-label="Basic example">
+                  <div class="btn-group mb-2" role="group" aria-label="Basic example">
                     <a href="" type="text" class="btn btn-success"><i class="fa-solid fa-basket-shopping"></i> Buy</a>
                     <a href="" type="button" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add</a>
                   </div>
@@ -181,3 +185,121 @@
 
     </div>
   </div>
+</div>
+
+
+<!-- Bakery product -->
+
+<div class="container mt-3 mb-5">
+  <div class="container mt-3 mb-3 ">
+    <h6 class="text-center text-primary text-heading">Buy Online Bakery Products</h6>
+  </div>
+  <br>
+  <div class="col-md-12">
+    <div class="row">
+      <% if (Bakery.length> 0) { %>
+        <% Bakery.forEach(image=> { %>
+          <div class="col-md-3 mt-2">
+            <div class="card product-radius">
+              <div class="card-box">
+                <img src="uploads/<%= image.img_data %>" alt="<%= image.name %>" class="card-img">
+                <div class="mx-3">
+                  <h5 class="product-text mt-2">
+                    <%= image.name %>
+                  </h5>
+                  <p class="product-text mt-1">
+                    <%= image.introduction %>
+                  </p>
+                  <h6 class="product-text mt-1">
+                    <i class="fa-solid fa-indian-rupee-sign"></i> - <%= image.price %>
+                  </h6>
+                </div>
+                <div class="mx-auto text-center">
+                  <span class="badge rounded-pill bg-primary product-text">
+                    <%= image.rating %> <i class="fa-regular fa-star"></i>
+                  </span>
+                  <div class="btn-group mb-2" role="group" aria-label="Basic example">
+                    <a href="" type="text" class="btn btn-success"><i class="fa-solid fa-basket-shopping"></i> Buy</a>
+                    <a href="" type="button" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% }); %>
+            <% } else { %>
+              <div class="col-md-12 mt-2">
+                <div class="col-md-4 mx-auto">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        No products available at the moment.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                <% } %>
+              </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- icecreame product  -->
+
+<div class="container mt-3 mb-5">
+  <div class="container mt-3 mb-3 ">
+    <h6 class="text-center text-primary text-heading">Buy Online Icecreame Products</h6>
+  </div>
+  <br>
+  <div class="col-md-12">
+    <div class="row">
+      <% if (Icecreame.length> 0) { %>
+        <% Icecreame.forEach(image=> { %>
+          <div class="col-md-3 mt-2">
+            <div class="card product-radius">
+              <div class="card-box">
+                <img src="uploads/<%= image.img_data %>" alt="<%= image.name %>" height="100%" class="card-img">
+                <div class="mx-3">
+                  <h5 class="product-text mt-2">
+                    <%= image.name %>
+                  </h5>
+                  <p class="product-text mt-1">
+                    <%= image.introduction %>
+                  </p>
+                  <h6 class="product-text mt-1">
+                    <i class="fa-solid fa-indian-rupee-sign"></i> - <%= image.price %>
+                  </h6>
+                </div>
+                <div class="mx-auto text-center">
+                  <span class="badge rounded-pill bg-primary product-text">
+                    <%= image.rating %> <i class="fa-regular fa-star"></i>
+                  </span>
+                  <div class="btn-group mb-2" role="group" aria-label="Basic example">
+                    <a href="" type="text" class="btn btn-success"><i class="fa-solid fa-basket-shopping"></i> Buy</a>
+                    <a href="" type="button" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <% }); %>
+            <% } else { %>
+              <div class="col-md-12 mt-2">
+                <div class="col-md-4 mx-auto">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        No products available at the moment.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                <% } %>
+              </div>
+
+    </div>
+  </div>
+</div>
