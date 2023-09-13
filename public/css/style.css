@@ -7,6 +7,11 @@
     border-bottom-left-radius: 20px 30px !important;
     border-top-right-radius: 30px 20px !important;
 }
+.home-text-img {
+    font-size: small;
+    color: #00ffea;
+    font-family: cursive;
+}
 .product-radius {
     border-bottom-left-radius: 20px 30px !important;
     border-top-right-radius: 30px 20px !important;
