@@ -1,8 +1,13 @@
 const express = require('express');
 const router = express.Router();
+const bakery = require('../models/addBakeryModel');
 
 router.get('/', async (req, res) => {
-    await res.render('home');
+    const Bakery = await bakery.findAll();
+
+    await res.render('home', {
+        Bakery,
+    });
 });
 router.get('/about', async (req, res) => {
     await res.render('product/addToCart');
