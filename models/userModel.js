@@ -10,7 +10,7 @@ const User = sqlize.define(
          allowNull: false,
          primaryKey: true,
       },
-      name: {
+      username: {
          type: DataTypes.STRING(75),
          allowNull: false,
       },
