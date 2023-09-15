@@ -3,10 +3,12 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .box-radius {
     border-bottom-left-radius: 20px 30px !important;
     border-top-right-radius: 30px 20px !important;
 }
+
 .home-text-img {
     font-size: small;
     color: #00ffea;
@@ -16,14 +18,16 @@
 .input-none {
     border: none;
 }
+
 .input-rating {
     border: none;
     background-color: transparent;
     color: white;
-    width: 58%;
+    width: 56%;
 }
+
 .input-badge {
-    width: 16%;
+    width: 20%;
 }
 
 .product-radius {

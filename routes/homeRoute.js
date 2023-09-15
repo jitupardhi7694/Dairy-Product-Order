@@ -1,23 +1,39 @@
 const express = require('express');
 const router = express.Router();
-const milk = require('../models/addMilkModel');
-const bakery = require('../models/addBakeryModel');
-const icecreame = require('../models/addIcecreameModel');
-const sweet = require('../models/addSweetModel');
+const {
+    productValidationRules,
+    validate,
+} = require('../helpers/validators/addProductsValidation');
+const productController = require('../controller/addProductController');
+const multer = require('multer');
+const path = require('path');
+
+const storage = multer.diskStorage({
+    destination: './public/uploads/', // Specify the destination folder for uploaded files
+    filename: (req, file, callback) => {
+        callback(
+            null,
+            file.fieldname + '-' + Date.now() + path.extname(file.originalname)
+        );
+    },
+});
+
+const upload = multer({ storage: storage });
 
 router.get('/', async (req, res) => {
-    const Milk = await milk.findAll();
-    const Bakery = await bakery.findAll();
-    const Icecreame = await icecreame.findAll();
-    const Sweet = await sweet.findAll();
-
-    await res.render('home', {
-        Milk,
-        Bakery,
-        Icecreame,
-        Sweet,
-    });
+    await productController.getProductPage(req, res);
 });
+
+router.post(
+    '/',
+    upload.single('product_image'),
+    productValidationRules(),
+    validate,
+    async (req, res) => {
+        await productController.saveProduct(req, res);
+    }
+);
+
 router.get('/about', async (req, res) => {
     await res.render('product/addToCart');
 });
